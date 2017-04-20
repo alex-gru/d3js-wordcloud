@@ -48,7 +48,7 @@ function draw(data, bounds) {
     text.transition()
             .duration(1000)
             .attr("transform", function(d) {
-                return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                return "translate(" + [d.x, d.y] + ")rotate(0)";
             })
             .style("font-size", function(d) {
                 return d.size + "px";
@@ -56,7 +56,7 @@ function draw(data, bounds) {
     text.enter().append("text")
             .attr("text-anchor", "middle")
             .attr("transform", function(d) {
-                return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                return "translate(" + [d.x, d.y] + ")rotate(0)";
             })
             .style("font-size", function(d) {
                 return d.size + "px";

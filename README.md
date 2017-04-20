@@ -1,5 +1,6 @@
-d3js-wordcloud
+Tag Cloud Generator
 ==============
+forked from `d3js-wordcloud`
 
 ## Install
 
